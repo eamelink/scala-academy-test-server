@@ -3,8 +3,21 @@ Sample Exchange Rate Server
 
 This is a sample server application that serves sample exchange rates. It's intended to allow you to write a test client and experiment with combining various WS responses, selecting the quickest one, etcetera.
 
+Usage
+=====
+Run `sbt run` to open the Play/sbt console.
 
-If has the following methods:
+Browse to `http://localhost:9000/exchange1`
+
+Alternatively, to run on a different port (if your client app already took port 9000)
+
+Run `sbt`
+
+Then, once in the console, run `run 9001`
+
+
+API Methods
+===========
 
 /failfast
 ---
