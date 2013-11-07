@@ -1,0 +1,8 @@
+GET     /failfast                   controllers.Application.failFast
+GET     /failslow                   controllers.Application.failSlow
+GET     /exchange1                  controllers.Application.exchange1
+GET     /exchange2                  controllers.Application.exchange2
+GET     /exchange3                  controllers.Application.exchange3
+
+GET     /chunked                    controllers.Application.chunked
+GET     /stream                     controllers.Application.stream
